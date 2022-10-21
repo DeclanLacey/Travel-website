@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.dest-img {
+    
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 5px
+}
+
+.header {
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+
+.site-title {
+    margin-left: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.travel-container {
+    margin-bottom: 3em;
+}
+
+.travel-item {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3em;
+    height: 168px;
+}
+
+.country-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 25px;
+}
+
+.country-content {
+    height: 168px;
+    font-size: .7em;
+    padding: 1em;
+}
+
+.dest-title {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.country-name {
+    margin-right: 1em;
+    margin-left: .3em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.link {
+    color: #918E9B
+}
+
+.date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
